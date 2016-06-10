@@ -1,17 +1,17 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+# [OwlFixIT](http://owlfixit.com/)
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## What is this?
 
-## Getting Started
+I'm just re-touching up on html/css and learning the Bootstrap framework. This is the first project I am doing to accomplish this! It is also for my business on my campus for mobile device repair, so I'm just killing two birds with one stone with this one. 
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* Fork the repo
+I'm using the Start Bootstrap theme by David Miller. (Credits in the Creator section)
+I first started with the framework provided by getbootstrap.com.
 
 ## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+* 6/10/2016
+	- Trying to get a scrolling-blur effect to happen on the header background. So far, the close I have gotten to is bluring the ENTIRE header, including the text and the button. Still trying to figure out how to just get the background.
+	-Still need to impliment a contact form (Use PHP?)
+	-Integration of Instagram feed for the "Gallary" section
 
 ## Creator
 
