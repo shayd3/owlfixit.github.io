@@ -8,6 +8,11 @@ I'm using the Start Bootstrap theme by David Miller. (Credits in the Creator sec
 I first started with the framework provided by getbootstrap.com.
 
 ## Bugs and Issues
+* 6/12/2016
+	- Re-ordered some of the sections to make it more geared to what the user came to the site for
+	- Added a scheduler button to a scheduling service for CRM (still need to re-work some of the options for the forms to prevent confusion and conflicts)
+	- Upcoming: Embeded scheduler (Use the scheduler without leaving the OwlFixIT website)
+	- Changed some styles to make things more legible
 * 6/10/2016
 	- Trying to get a scrolling-blur effect to happen on the header background. So far, the close I have gotten to is bluring the ENTIRE header, including the text and the button. Still trying to figure out how to just get the background.
 	-Still need to impliment a contact form (Use PHP?)
