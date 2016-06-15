@@ -148,21 +148,24 @@ aside {
   }
 }
 header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  -webkit-background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+      -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
-  color: white;
-    /* Create the parallax scrolling effect */
+      /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
@@ -569,4 +572,34 @@ and (orientation : landscape) {
       background-position: center center !important;
       min-width: 100%;
       min-height: 100%; }
+}
+
+
+/*PreLoader*/
+body {
+    overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/ripple.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
