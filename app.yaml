@@ -5,6 +5,9 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /favicon.ico
+  static_files: /favicon.ico
+  upload: /favicon.ico
 - url: /
   static_files: index.html
   upload: index.html
@@ -14,8 +17,7 @@ handlers:
   static_dir: js
 - url: /img
   static_dir: img
-- url: /font-awesome
-  static_dir: font-awesome
+
 - url: /fonts
   static_dir: fonts
 - url: /less
