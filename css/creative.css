@@ -26,10 +26,16 @@ a {
   transition: all 0.35s;
   color: #a41e35;
 }
+a.white{
+  color:white;
+}
+
 a:hover,
 a:focus {
   color: #eb3812;
 }
+
+
 h1,
 h2,
 h3,
@@ -50,6 +56,11 @@ p {
   background-color: #222222;
   color: white;
 }
+
+.btn-white {
+  color: white;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
