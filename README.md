@@ -7,6 +7,13 @@ I'm just re-touching up on html/css and learning the Bootstrap framework. This i
 I'm using the Start Bootstrap theme by David Miller. (Credits in the Creator section)
 I first started with the framework provided by getbootstrap.com.
 
+## To-Do List
+* Add an interactive price list
+	- Add price list button
+		- Will show a search box, start typing and will try and auto-complete an entry
+		- Once you hit enter, price for that item will appear.
+
+
 ## Bugs and Issues
 * 6/12/2016
 	- Re-ordered some of the sections to make it more geared to what the user came to the site for
